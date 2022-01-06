@@ -1,0 +1,2 @@
+# algorithm
+BOJ Algorithm recording
