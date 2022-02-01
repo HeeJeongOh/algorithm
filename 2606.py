@@ -3,7 +3,7 @@
 2. 노드의 개수를 입력받고 2차워배열 통해 그래프 생성
 3. 2차원배열의 값이 1인 경우, 연결되어 있음
 4. 그래프 순회를 통해 cnt++
-    (1차시도) 시간초과
+    > 1차시도 : 시간초과
         while(True):
             if len(tmp) == 0:
                 break
@@ -12,15 +12,13 @@
                 if graph[next][j] == 1 and tmp.__contains__(j) == False:
                     tmp.append(j)
                     cnt += 1
-    (2차시도) 
+    > 2차시도 : 성공 
         for i in tmp:    
             # print(i, tmp)
             for j in range(2, n+1):
                 if graph[i][j] ==1 and not tmp.__contains__(j):
                     tmp.append(j)
                     cnt += 1
-    
-
 '''
 import sys
 
