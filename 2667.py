@@ -13,7 +13,6 @@
     - 단지 수 = len(vilage)
     - 단지 내 집의 수 = print(vilage[i])
 '''
-
 import sys
 
 def DFS(r, c, visited):
