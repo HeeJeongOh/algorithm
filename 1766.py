@@ -7,7 +7,6 @@
     2.2 큐에서 원소를 꺼내 연결된 간선 제거
     2.3 진입차수가 0인 정점 큐 삽입
 3. 가능하면 쉬운 문제부터 풀어야한다. -> 큐 삽입 시, 우선순위 따지기
-
 '''
 import sys
 import heapq
@@ -21,15 +20,12 @@ for i in range(M):
     A, B = map(int, sys.stdin.readline().rstrip().split())
     graph[A].append(B)
     degree[B] += 1
-print(graph)
-print(degree)
 
 # heapq를 활용해서 '가능하면 쉬운문제부터' 조건 만족
 q = []
 for i in range(1, N + 1):
     if degree[i] == 0:
         heapq.heappush(q, i)
-print(q)
 
 result = []
 while q:
