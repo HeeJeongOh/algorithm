@@ -31,6 +31,8 @@
         ㄴ 인접행렬로 구현 시, NxN 메모리
         =   => 트리 구현 방법 수정
 '''
+# SOLVED
+
 import sys
 sys.setrecursionlimit(10**9)
 

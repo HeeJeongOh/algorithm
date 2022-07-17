@@ -5,6 +5,8 @@
 2. 트리 정보 입력 방법
 
 '''
+# SOLVED
+
 import sys
 
 class Node:

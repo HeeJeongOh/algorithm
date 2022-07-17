@@ -2,6 +2,8 @@
 1. value의 음수값을 우선순위로 설정
 2. heapq 자체가 min heap임을 활용
 '''
+# SOLVED
+
 import sys
 import heapq
 

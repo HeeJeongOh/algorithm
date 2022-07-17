@@ -20,6 +20,8 @@
                     tmp.append(j)
                     cnt += 1
 '''
+# SOLVED
+
 import sys
 
 n = int(sys.stdin.readline().rstrip())

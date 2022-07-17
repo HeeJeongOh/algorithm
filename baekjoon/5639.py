@@ -5,6 +5,7 @@
 2. 재귀함수 작성
     2.1 
 '''
+# SOLVED
 
 import sys
 sys.getrecursionlimit()
