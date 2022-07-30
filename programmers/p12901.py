@@ -1,7 +1,5 @@
 # 윤년 : 2월이 29일까지 존재
 def solution(a, b):
-    cal = {30: [4, 6, 9, 11], 
-           29: [2]}
     days = ['FRI','SAT','SUN','MON','TUE','WED','THU']
     # 2016년 1월 1일은 금요일
     d = b
