@@ -49,7 +49,6 @@ def solution(answers):
                  result[i] += 1
     
     m = max(result)
-    answer.append(result.index(m)+1)
     for i in range(3):
         if m == result[i]:
             answer.append(i+1)
