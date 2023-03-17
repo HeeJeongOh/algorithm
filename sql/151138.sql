@@ -1,4 +1,3 @@
--- SUCCESS
 -- 대여기간 계산 시, DATEDIFF+1을 해주어야 함
 
 SELECT HISTORY_ID, CAR_ID, 
