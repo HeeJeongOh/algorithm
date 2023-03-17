@@ -5,4 +5,4 @@
 - 날짜 계산 : DATEDIFF(date1, date2);
 - DATE에서 특정 정보 추출 : MONTH(date)
 - 날짜형식 : DATE_FORMAT(date, '%Y-%m-%d')
-
+- 문자열 자르기 : SUBSTRING(문자열, start, end) / RIGHT(문자열, len) / LEFT(문자열, len)
