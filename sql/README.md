@@ -7,3 +7,4 @@
 - 날짜형식 : DATE_FORMAT(date, '%Y-%m-%d')
 - 문자열 자르기 : SUBSTRING(문자열, start, end) / RIGHT(문자열, len) / LEFT(문자열, len)
 - NULL인 경우 출력 바꾸기 : IFNULL(col, val)
+- AS : 공백이 포함되는 경우, 작은 따옴표로 감싸기
