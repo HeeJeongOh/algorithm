@@ -1,10 +1,10 @@
 ### 쿼리 정리
-- 평균 : AVG(col)
-- 반올림 : ROUND(col)
-- 조건문 : SELECT IF(500<1000, "YES", "NO");
-- 날짜 계산 : DATEDIFF(date1, date2);
-- DATE에서 특정 정보 추출 : MONTH(date)
-- 날짜형식 : DATE_FORMAT(date, '%Y-%m-%d')
-- 문자열 자르기 : SUBSTRING(문자열, start, end) / RIGHT(문자열, len) / LEFT(문자열, len)
-- NULL인 경우 출력 바꾸기 : IFNULL(col, val)
+- AVG(col) : 평균
+- ROUND(col, 자릿수) : 반올림
+- SELECT IF(500<1000, "YES", "NO") : 조건문
+- DATEDIFF(date1, date2) : 날짜계산
+- DATE에서 년월일 정보 추출 : YEAR(date), MONTH(date), DAY(date)
+- DATE_FORMAT(date, '%Y-%m-%d') : 날짜 형식 수정
+- SUBSTRING(문자열, start, end) / RIGHT(문자열, len) / LEFT(문자열, len) : 문자열 자르기
+- IFNULL(col, val) : NULL인 경우, 출력 변경
 - AS : 선언의 경우 공백이 포함되는 경우, 작은 따옴표로 감싸기, 참조할 때에는 '' 필요 없음
