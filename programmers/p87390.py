@@ -24,6 +24,5 @@ def solution(n, left, right):
             result.append(row+1)
         else:
             result.append(col+1)
-            
     
     return result
