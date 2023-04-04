@@ -8,3 +8,4 @@
 - SUBSTRING(문자열, start, end) / RIGHT(문자열, len) / LEFT(문자열, len) : 문자열 자르기
 - IFNULL(col, val) : NULL인 경우, 출력 변경
 - AS : 선언의 경우 공백이 포함되는 경우, 작은 따옴표로 감싸기, 참조할 때에는 '' 필요 없음
+- DIV : 나눗셈 연산 // 와 동일
