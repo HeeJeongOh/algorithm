@@ -1,5 +1,5 @@
--- WHERE OPTIONS IN ('통풍시트', '열선시트', '가죽시트')
--- ㄴ 해당 쿼리를 쓰려면 OPTIONS가 , 기준으로 나뉘어진 리스트여야 함.
+-- 오답 : WHERE OPTIONS IN ('통풍시트', '열선시트', '가죽시트')
+--       ㄴ 해당 쿼리를 쓰려면 OPTIONS가 , 기준으로 나뉘어진 리스트여야 함.
 SELECT CAR_TYPE, COUNT(CAR_ID) AS CARS
 FROM CAR_RENTAL_COMPANY_CAR
 WHERE OPTIONS LIKE '%시트%'
