@@ -12,3 +12,5 @@
 - TABLE명 T : 해당 테이블의 컬럼 호출 시, T.컬럼명 사용
 - HAVING : GROUP BY 사용 시, 집계함수를 통한 조건절 작성 시 사용
 - MID/SUBSTR/SUBSTRING(문자열, start, len): 문자열서 start부터 len개 읽어오기
+- col BETWEEN a AND b : A 이상 B 이하
+- CASE (WHEN 조건 THEN 결과)* END AS col : case문
