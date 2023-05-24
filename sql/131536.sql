@@ -1,0 +1,8 @@
+-- AS B를 추가하지 않았을 때, 'Every derived table must have its own alias'오류가 뜸
+SELECT B.USER_ID, B.PRODUCT_ID
+FROM (
+    SELECT USER_ID, PRODUCT_ID, COUNT(*) AS CNT
+    FROM ONLINE_SALE
+    GROUP BY USER_ID, PRODUCT_ID) AS B
+WHERE B.CNT > 1
+ORDER BY B.USER_ID, B.PRODUCT_ID DESC;
