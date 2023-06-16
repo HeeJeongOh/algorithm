@@ -14,3 +14,4 @@
 - MID/SUBSTR/SUBSTRING(문자열, start, len): 문자열서 start부터 len개 읽어오기
 - col BETWEEN a AND b : A 이상 B 이하
 - CASE (WHEN 조건 THEN 결과)* END AS col : case문
+    ㄴ case when-then when-then else end
