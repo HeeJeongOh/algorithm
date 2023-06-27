@@ -15,3 +15,5 @@
 - col BETWEEN a AND b : A 이상 B 이하
 - CASE (WHEN 조건 THEN 결과)* END AS col : case문
     ㄴ case when-then when-then else end
+- table A JOIN table B USING (col) : col명이 동일할 때
+- table A JOIN table B ON A.col1 = B.col2 : col명이 동일하지 않을 때
