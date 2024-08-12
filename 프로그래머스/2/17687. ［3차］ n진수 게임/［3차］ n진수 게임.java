@@ -3,15 +3,17 @@ import java.util.*;
 - 숫자를 돌아가면서 말하기
     0 1 2 3 ... 1 0 1 1 1 2
 - N진수로 변경하여 게임
-
+[내시도]
 1. 4
     01234
     011011100
     0 1 1 1
+2. sb = 0110 , current = 3(11), total = 4
+3. start = 4 ~ 4+2
 
-1. sb = 0110 , current = 3(11), total = 4
-2. start = 4 ~ 4+2
-
+[다른사람풀이]
+ㄴ 불필요한 저장공간 사용 x
+https://school.programmers.co.kr/questions/64995
 */
 class Solution {
     public String solution(int n, int t, int m, int p) {
