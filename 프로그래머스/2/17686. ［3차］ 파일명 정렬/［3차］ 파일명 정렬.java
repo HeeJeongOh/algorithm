@@ -40,7 +40,6 @@ class Solution {
             @Override
             public int compare(String[] file1, String[] file2) {                
                 // 파일명 비교 (대소문자 무시)
-
                 int nameComparison = file1[0].toLowerCase().compareTo(file2[0].toLowerCase());
                 if (nameComparison != 0) {
                     return nameComparison;
