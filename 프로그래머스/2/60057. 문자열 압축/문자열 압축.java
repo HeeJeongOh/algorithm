@@ -17,8 +17,8 @@ class Solution {
             return 1;
         }
         for(int size = 1; size < len; size++){
-            StringBuffer output = new StringBuffer();
-            // int output = 0;
+            // StringBuffer output = new StringBuffer();
+            int output = 0;
             
             String before = s.substring(0, size);
             int cnt = 1;
@@ -30,11 +30,11 @@ class Solution {
                 }
                 else{
                     if(cnt == 1){
-                        output.append(before);
-                        // output += before.length();
+                        // output.append(before);
+                        output += before.length();
                     }else{
-                        output.append(cnt+before);
-                        // output += (1 + before.length());
+                        // output.append(cnt+before);
+                        output += (String.valueOf(cnt).length() + before.length());
 
                     }
                     before = current;
@@ -44,30 +44,28 @@ class Solution {
             String current = s.substring(start, len);
             if(before.equals(current)){
                 cnt += 1;
-                output.append(cnt+current);                        
-                // output += (1 + before.length());
-
-
+                // output.append(cnt+current);                        
+                output += (String.valueOf(cnt).length() + before.length());
             }
             else{
                 if(cnt == 1){
-                    output.append(before);
-                    // output += before.length();
+                    // output.append(before);
+                    output += before.length();
 
                 }else{
-                    output.append(cnt+before);
-                    // output += (1 + before.length());
+                    // output.append(cnt+before);
+                    output += (String.valueOf(cnt).length() + before.length());
 
                 }
-                output.append(current);
-                // output += current.length();
+                // output.append(current);
+                output += current.length();
             }
-            if(output.length() < answer){
-                answer = output.length();
-            }
-            // if(output < answer){
-            //     answer = output;
+            // if(output.length() < answer){
+            //     answer = output.length();
             // }
+            if(output < answer){
+                answer = output;
+            }
             // System.out.println(output.length() + " " + output.toString());
         }
         
