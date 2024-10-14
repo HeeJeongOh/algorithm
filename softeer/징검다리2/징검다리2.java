@@ -45,7 +45,7 @@ public class Main {
 
         int maxValue = 0;
         for(int i = 0; i < N; i++){
-            if(maxValue > (increase[i] + decrease[i])){
+            if(maxValue < (increase[i] + decrease[i])){
                 maxValue = increase[i] + decrease[i];
             }
         }
